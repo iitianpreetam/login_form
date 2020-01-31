@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>Login/Register</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+        <i class="fa fa-2x fa-facebook-official"></i>
+        <i class="fa fa-2x fa-twitter-square"></i>
+        <i class="fa fa-2x fa-google"></i>
+        </div>
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="register" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="email" class="input-field" placeholder="Email" required>
+          <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
