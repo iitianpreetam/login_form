@@ -32,7 +32,7 @@
 	cursor: pointer;
 	background:transparent;
 	border:0;
-	outline: none;
+	outline: none!important;
 	position: relative;
 }
 #btn {
